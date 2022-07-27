@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="../index.html">Till Index</a>
+    <hr>
+
+<h1 id="create-headline">Skapa nytt inlägg</h1>
+
+<div id="create-container">
+
+    <form id="create-post">
+        <label for="title">Titel</label><br>
+        <input type="text" name="title" id="title">
+        <br>
+        <label for="author">Författare</label><br>
+        <input type="text" name="author" id="author">
+        <br>
+        <label for="content">Blogg-post</label><br>
+        <textarea name="content" id="content-textarea" cols="95" rows="25"></textarea>
+        <br>
+        
+        <p>Välj taggar här:</p>
+        <select name="tags" id="tags" size="7" multiple></select>
+        <br>
+        <br>
+        <input type="submit" value="Create">
+        <br>
+        <a href="index.html">&#x2190; back</a>
+
+    </form>
+    </div>
+
+    <script src="js/create-post.js"></script>
+</body>
+</html>

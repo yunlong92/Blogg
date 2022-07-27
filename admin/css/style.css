@@ -1,0 +1,72 @@
+body{
+    background-color: #F6F7F8
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.change-button{
+    text-decoration: none;
+    color: black;
+}
+p{
+    line-height: 1.9;
+    padding: 0 30px;
+}
+#main-container,
+#create-container,
+#update-container{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+#handle-table,
+#create-post{
+    margin: 20px auto;
+}
+#manage-container{
+    border: 1px solid lightgrey;
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+.top-navigation{
+    padding-left: 30px;
+}
+#headline-on-page,
+#create-headline,
+#update-headline,
+.headline-on-page{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#manage-buttons{
+    margin-left: 720px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover,
+button a:hover{
+    color:black;
+}
+a{
+    color: navy;
+}
+a:hover{
+    color: lightcoral;
+}
+input,
+textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.6;
+}

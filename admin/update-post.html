@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <hr>
+    <h1 id="update-headline">Uppdatera blogg-inlägg</h1>
+
+    <div id="update-container">
+
+        <form id="update-form">
+            <label for="">Titel</label><br>
+            <input type="text" name="title" id="title">
+            <br>
+            <label for="author">Författare</label><br>
+            <input type="text" name="author" id="author">
+            <br>
+            <label for="content">Blogg-post</label><br>
+            <textarea name="content" id="content" cols="95" rows="25"></textarea>
+            <br>
+            <select name="tags" id="tags" size="7" multiple>
+
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Update">
+            <br>
+            <a href="index.html">&#x2190; back</a>
+        </form>
+    </div>
+    <script src="js/update-post.js"></script>
+</body>
+</html>
